@@ -68,6 +68,10 @@ button {
   font-weight: 900;
 }
 
+p {
+  line-height: 1.5;
+}
+
 .hero-image {
   width: 100%;
   object-fit: cover;
@@ -96,4 +100,66 @@ button {
   height: 350px;
   padding: 50px 50px 50px 50px;
   width: 98%;
+}
+
+.press {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 300px;
+  padding: 10px;
+}
+.press .companies {
+  width: 250px;
+  height: 100px;
+  margin: 20px;
+}
+
+.auction-text {
+  height: 100px;
+  width: 100%;
+  height: 100px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 290px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+h6 {
+  color: #FF3998;
+}
+
+.group8 {
+  justify-content: flex-end;
+}
+
+.footer-upsell {
+  width: 90%;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.upsell-image {
+  height: 400px;
+  width: 50%;
+  object-position: 10px 5px;
+  object-fit: contain;
+}
+
+.scrollmenu {
+  overflow-x: scroll;
+  white-space: nowrap;
 }
